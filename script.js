@@ -7,7 +7,7 @@ const shop = {
 const btn = document.getElementById('fetch');
 
 btn.addEventListener('click', () => {
-  postData('http://aurimasg7.pythonanywhere.com/data', shop).then((data) => {
+  postData('https://aurimasg7.pythonanywhere.com/data', shop).then((data) => {
     console.log(data); // JSON data parsed by `data.json()` call
   });
 });
